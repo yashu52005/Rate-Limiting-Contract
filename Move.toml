@@ -1,0 +1,16 @@
+[package]
+name = "RATELIMITINGCONTRACT"
+version = "1.0.0"
+authors = []
+
+[addresses]
+addr="44382037bad73fc895843ebef3629f698675bf7db5556fd5f138304c5e751b27"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
